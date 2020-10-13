@@ -14,7 +14,7 @@
     </div>
     <div class="grid grid-cols-2 bg-black mt-20 w-full">
         <div class="ml-24">
-            <h1 class="text-6xl font-black text-white">Commerce. <br>Not Complicated.</h1>
+            <h1 class="text-6xl font-black text-white mt-4 ">Commerce. <br>Not Complicated.</h1>
             <p class="text-white pt-2 pb-6 text-sm">Teespring is a free end to end solution for your e-commerce business. Create & <br>sell online.</p>
             <button class="bg-red-600 text-white font-medium text-sm py-2 px-6 rounded-sm mb-56">Get Started</button>
         </div>
