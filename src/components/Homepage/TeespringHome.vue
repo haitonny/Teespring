@@ -1,20 +1,20 @@
 <template>
-<div class="mx-auto">
+<div class="mx-auto font-momo">
     <div class="grid grid-cols-2 bg-white fixed top-0 w-full ">
         <div class="inline-flex font-light text-sm py-6 ml-24">
-            <div class="pr-10"><img style="width: 120px" src="../../assets/image/teespring.png"/></div>
-            <div class="pr-10">How it works</div>
-            <div class="pr-10">Sell anything</div>
-            <div class="pr-10">Sell everywhere</div>
+            <div class="xl:pr-10 md:pr-4"><img style="width: 120px" src="../../assets/image/teespring.png"/></div>
+            <div class="xl:pr-10 md:pr-4">How it works</div>
+            <div class="xl:pr-10 md:pr-4">Sell anything</div>
+            <div class="xl:pr-10 md:pr-4">Sell everywhere</div>
         </div>
         <div class="flex justify-end py-4 mr-24">
             <button class="bg-red-600 text-white font-medium text-sm py-2 px-4 rounded">Start Designing</button>
-            <div class="pl-8 pt-2 text-red-600 font-medium">login</div>
+            <div class="pl-8 pt-2 text-red-600 font-semibold hover:text-red-700 cursor-pointer">Login</div>
         </div>
     </div>
-    <div class="grid grid-cols-2 bg-black mt-20 ">
-        <div class="ml-24">
-            <h1 class="text-6xl font-black text-white mt-4 ">Commerce. <br>Not Complicated.</h1>
+    <div class="grid grid-cols-2 bg-black ">
+        <div class="ml-24 text-left">
+            <h1 class="text-6xl font-black text-white mt-12 ">Commerce. <br>Not Complicated.</h1>
             <p class="text-white pt-2 pb-6 text-sm">Teespring is a free end to end solution for your e-commerce business. Create & <br>sell online.</p>
             <button class="bg-red-600 text-white font-medium text-sm py-2 px-6 rounded-sm mb-56">Get Started</button>
         </div>
@@ -48,12 +48,14 @@
     <div class="grid grid-cols-1 container mx-auto">
         <div class="my-12"><h2 class="font-extrabold text-2xl">Recommendations For You</h2></div>
         <div class="inline-flex">
-            <div class="pr-8"><img style="width:309px; height: 350px" src="../../assets/image/1.jpg"/>
+          <router-link to="/teespring-shop">
+          <div class="pr-8"><img style="width:309px; height: 350px" src="../../assets/image/1.jpg"/>
                 <div class="text-center my-4">
                     <p class="text-sm">Limited Edition</p>
                     <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
                 </div>
             </div>
+          </router-link>
             <div class="pr-8"><img style="width:309px; height: 350px" src="../../assets/image/2.jpg"/>
                 <div class="text-center my-4">
                     <p class="text-sm">Beer o'clok</p>
