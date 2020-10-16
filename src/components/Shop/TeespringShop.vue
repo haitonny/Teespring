@@ -98,15 +98,17 @@
                   <option>Mug - $14.99 USD</option>
                 </select>
               </lable>
-              <div class="flex mt-3">
-                <div class="border-2 hover:border-red-500 rounded bg-cover" style="background-image: url('image/1.jpg') ;width: 90px; height: 60px"></div>
-                <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px; background-image: url('image/9.jpg')"></div>
-                <div class="border-2 hover:border-red-500 rounded bg-cover " style="width: 90px; height: 60px; background-image: url('image/10.jpg')"></div>
-                <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px ; background-image: url('image/11.jpg')"></div>
-              </div>
-              <div class="flex mt-3 pb-8">
-                <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px ; background-image: url('image/12.jpg')"></div>
-                <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px; background-image: url('image/13.jpg')"></div>
+              <div class="flex lg:block">
+                <div class="flex mt-3">
+                  <div class="border-2 hover:border-red-500 rounded bg-cover" style="background-image: url('image/1.jpg') ;width: 90px; height: 60px"></div>
+                  <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px; background-image: url('image/9.jpg')"></div>
+                  <div class="border-2 hover:border-red-500 rounded bg-cover " style="width: 90px; height: 60px; background-image: url('image/10.jpg')"></div>
+                  <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px ; background-image: url('image/11.jpg')"></div>
+                </div>
+                <div class="flex mt-3 pb-8">
+                  <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px ; background-image: url('image/12.jpg')"></div>
+                  <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px; background-image: url('image/13.jpg')"></div>
+                </div>
               </div>
               <div class="">
                 <p class="text-xs text-indigo-800 font-bold">Description:</p>
