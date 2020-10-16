@@ -5,8 +5,20 @@ module.exports = {
   },
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        dmd: {
+          max: "767px"
+        },
+        dlg: {
+          max: "1023px"
+        }
+      },
+      container: {
+        center: true
+      }
+    }
   },
   variants: {},
-  plugins: [],
-}
+  plugins: []
+};

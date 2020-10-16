@@ -8313,6 +8313,11 @@ vue-loader@^15.9.2:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
+vue-provide-responsive@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vue-provide-responsive/-/vue-provide-responsive-1.1.0.tgz#922ca9a2f1e6cd5a1c48a2078809e174c1207cd3"
+  integrity sha512-2U/DprnKhMP9yrsfYa7SRWvf+07gHQRZ3oJ/bMyE/gfGuPlsZJVYtW8J9cCghVfd3QfzUjGIV/wfTL1RRzxiEQ==
+
 vue-router@^3.2.0:
   version "3.4.6"
   resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-3.4.6.tgz?cache=0&sync_timestamp=1602076935301&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-3.4.6.tgz#f7bda2c9a43d39837621c9a02ba7789f5daa24b2"
