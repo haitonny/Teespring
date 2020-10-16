@@ -163,7 +163,30 @@
         </div>
       </div>
     </div>
-    <div class="grid md:grid-cols-1 lg:grid-cols-2 mx-auto container mt-12">
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 mx-auto container md:mt-0 lg:mt-12">
+      <div class="text-center my-6" v-if="responsive.isMobile">
+        <p class="font-light text-sm mb-4">Share this design!</p>
+        <div class="flex ml-4 ">
+          <button class="border border-black hover:border-gray-400 py-2 px-32 mx-4 rounded font-semibold text-sm flex">
+            <div class="">
+              <svg viewBox="0 0 800 800" style="height: 24px">
+                <path d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"></path>
+              </svg>
+            </div>
+            <div class="">Facebook</div>
+          </button>
+          <button class="border border-black hover:border-gray-400 py-2 px-32 rounded font-semibold text-sm flex">
+            <div class="">
+              <svg viewBox="0 0 800 800" style="height: 24px">
+                <path
+                  d="M679 239s-21 34-55 57c7 156-107 329-314 329-103 0-169-50-169-50s81 17 163-45c-83-5-103-77-103-77s23 6 50-2c-93-23-89-110-89-110s23 14 50 14c-84-65-34-148-34-148s76 107 228 116c-22-121 117-177 188-101 37-6 71-27 71-27s-12 41-49 61c30-2 63-17 63-17z"
+                ></path>
+              </svg>
+            </div>
+            <div class="">Twitter</div>
+          </button>
+        </div>
+      </div>
       <div class="border-t" v-if="responsive.isMobile"></div>
       <div class="mt-8 ml-4 mb-3" v-if="responsive.isMobile">
         <div class="mb-8">
@@ -180,7 +203,7 @@
         <i class="text-sm font-semibold">Need Help? </i><span class="font-light text-sm">support@teespring.com</span>
       </div>
       <div class="border-b" v-if="responsive.isMobile"></div>
-      <div class="ml-4 mt-6 lg:ml-24">
+      <div class="ml-4 mt-6 lg:ml-24 mb-10">
         <p class="text-sm font-semibold mb-1">Delivery details</p>
         <div class="border-t" v-if="!responsive.isMobile"></div>
         <div class="leading-loose text-xs font-light ">
@@ -209,7 +232,30 @@
         <p class="text-sm font-semibold mb-1 mt-5">Campaign ID</p>
         <p class="border-t leading-loose text-xs font-light">needbeer</p>
       </div>
-      <div class=""></div>
+      <div class="text-center mt-8 hidden lg:block">
+        <p class="font-light text-sm mb-4">Share this design!</p>
+        <div class="flex m-auto w-1/2">
+          <button class="border border-black hover:border-gray-400 py-2 px-6 mx-4 rounded font-semibold text-sm flex">
+            <div class="">
+              <svg viewBox="0 0 800 800" style="height: 24px">
+                <path d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"></path>
+              </svg>
+            </div>
+            <div class="">Facebook</div>
+          </button>
+          <button class="border border-black hover:border-gray-400 py-2 px-8 rounded font-semibold text-sm flex">
+            <div class="">
+              <svg viewBox="0 0 800 800" style="height: 24px">
+                <path
+                  d="M679 239s-21 34-55 57c7 156-107 329-314 329-103 0-169-50-169-50s81 17 163-45c-83-5-103-77-103-77s23 6 50-2c-93-23-89-110-89-110s23 14 50 14c-84-65-34-148-34-148s76 107 228 116c-22-121 117-177 188-101 37-6 71-27 71-27s-12 41-49 61c30-2 63-17 63-17z"
+                ></path>
+              </svg>
+            </div>
+            <div class="">Twitter</div>
+          </button>
+        </div>
+        <p class="text-xs font-light text-gray-600 mt-8">Report this listing</p>
+      </div>
     </div>
   </div>
 </template>
