@@ -1,27 +1,27 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
-import TeespringHome from '@/components/Homepage/TeespringHome.vue'
-import TeespringShop from "@/components/Shop/TeespringShop";
+import Vue from "vue";
+import VueRouter from "vue-router";
+import TeespringHome from "@/view/Homepage/TeespringHome.vue";
+import TeespringShop from "@/view/Shop/TeespringShop";
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes = [
   {
-    path: '/',
-    name: 'TeespringHome',
-    component: TeespringHome,
+    path: "/",
+    name: "TeespringHome",
+    component: TeespringHome
   },
   {
-    path: '/teespring-shop',
-    name: 'shop',
-    component:TeespringShop
+    path: "/teespring-shop",
+    name: "shop",
+    component: TeespringShop
   }
-]
+];
 
 const router = new VueRouter({
-  mode: 'history',
+  mode: "history",
   base: process.env.BASE_URL,
   routes
-})
+});
 
-export default router
+export default router;
