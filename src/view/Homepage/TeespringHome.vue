@@ -60,7 +60,7 @@
         <div class="py-3"><a href="">Shop by Categories</a></div>
       </div>
     </div>
-    <div class="grid grid-cols-1 bg-gray-900 lg:mx-12 xl:container mx-auto" v-if="!responsive.isMobile">
+    <div class="lg:grid hidden grid-cols-1 bg-gray-900 lg:mx-12 xl:container mx-auto">
       <div class="flex items-center my-6 lg:ml-4 xl:ml-48">
         <p class="text-white font-medium">Design your own products?</p>
         <p class="text-white">Teespring makes it easy to create, sell, and order custom products.</p>
