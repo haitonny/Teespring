@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto">
+  <div class="mx-auto font-serif">
     <div class="bg-white fixed top-0 w-full flex justify-between">
       <div class="font-light text-sm py-6 flex lg:ml-16 xl:ml-24">
         <div class="ml-4 lg:ml-0"><img style="width: 120px" src="../../assets/image/teespring.png" /></div>

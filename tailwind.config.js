@@ -6,6 +6,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Roboto", "Helvetica", "Arial", "sans-serif"]
+      },
       screens: {
         dmd: {
           max: "767px"
