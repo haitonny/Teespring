@@ -67,9 +67,9 @@
         <button class="bg-red-600 text-white font-medium text-sm py-3 px-8 rounded ml-8">Start Designing</button>
       </div>
     </div>
-    <div class="grid grid-cols-1 lg:mx-12 xl:container mx-auto ">
-      <div class="my-12"><h2 class="font-extrabold text-2xl">Recommendations For You</h2></div>
-      <div class="inline-flex">
+    <div class="xl:container mx-auto ">
+      <div class="text-center lg:text-left lg:ml-12 xl:ml-0 my-12"><h2 class="font-extrabold text-2xl">Recommendations For You</h2></div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:mx-12 ">
         <router-link to="/teespring-shop">
           <div class="pr-8">
             <img style="width:309px; height: 350px" src="../../assets/image/1.jpg" />
@@ -102,9 +102,9 @@
         </div>
       </div>
     </div>
-    <div class="grid grid-cols-1 lg:mx-12 xl:container mx-auto">
-      <div class="my-12"><h2 class="font-extrabold text-2xl">Trending</h2></div>
-      <div class="inline-flex">
+    <div class="xl:container mx-auto">
+      <div class="text-center lg:text-left lg:ml-12 xl:ml-0 my-12"><h2 class="font-extrabold text-2xl">Trending</h2></div>
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:mx-12 ">
         <div class="pr-8">
           <img class="bg-gray-600" style="width:309px; height: 350px" src="../../assets/image/1.jpg" />
           <div class="text-center my-4">
