@@ -58,46 +58,52 @@
         </div>
       </div>
       <div class="text-center text-sm font-semibold mx-auto pt-4 hidden md:block">
-        <div class="">
-          <img class="" src="../../assets/image/1.jpg" height="340" width="250" />
-          <p class="mt-4">Limited Edition.</p>
-        </div>
-        <div class="my-16">
-          <img class="" src="../../assets/image/4.jpg" height="340" width="250" />
-          <p class="mt-4">Just Eat It Burger Love</p>
-        </div>
-        <div class="">
-          <img src="../../assets/image/1.jpg" height="340" width="250" />
-          <p class="mt-4">Win some,Lose some,Dim sum</p>
-        </div>
+        <router-link to="/teespring-Shop">
+          <div class="">
+            <img class="" src="../../assets/image/1.jpg" height="340" width="250" />
+            <p class="mt-4">Limited Edition.</p>
+          </div>
+          <div class="my-16">
+            <img class="" src="../../assets/image/4.jpg" height="340" width="250" />
+            <p class="mt-4">Just Eat It Burger Love</p>
+          </div>
+          <div class="">
+            <img src="../../assets/image/1.jpg" height="340" width="250" />
+            <p class="mt-4">Win some,Lose some,Dim sum</p>
+          </div>
+        </router-link>
       </div>
       <div class="text-center text-sm font-semibold mx-auto pt-4 hidden md:block">
-        <div class="">
-          <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
-          <p class="mt-4">Pizza Lover's Food Pyramid</p>
-        </div>
-        <div class="my-16">
-          <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
-          <p class="mt-4">Fries Before Guys</p>
-        </div>
-        <div class="">
-          <img class="" src="../../assets/image/4.jpg" height="340" width="250" />
-          <p class="mt-4">Silliest</p>
-        </div>
+        <router-link to="/teespring-Shop">
+          <div class="">
+            <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
+            <p class="mt-4">Pizza Lover's Food Pyramid</p>
+          </div>
+          <div class="my-16">
+            <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
+            <p class="mt-4">Fries Before Guys</p>
+          </div>
+          <div class="">
+            <img class="" src="../../assets/image/4.jpg" height="340" width="250" />
+            <p class="mt-4">Silliest</p>
+          </div>
+        </router-link>
       </div>
       <div class="text-center text-sm font-semibold mx-auto pt-4 hidden md:block">
-        <div class="">
-          <img class="" src="../../assets/image/1.jpg" height="340" width="250" />
-          <p class="mt-4">Ameowica the Great - Funny patriotic</p>
-        </div>
-        <div class="my-16">
-          <img class="" src="../../assets/image/1.jpg" height="340" width="250" />
-          <p class="mt-4">Step Aside Coffee - Alcohol is Here</p>
-        </div>
-        <div class="">
-          <img src="../../assets/image/4.jpg" height="340" width="250" />
-          <p class="mt-4">Salt Bae Merica Edition</p>
-        </div>
+        <router-link to="/teespring-Shop">
+          <div class="">
+            <img class="" src="../../assets/image/1.jpg" height="340" width="250" />
+            <p class="mt-4">Ameowica the Great - Funny patriotic</p>
+          </div>
+          <div class="my-16">
+            <img class="" src="../../assets/image/1.jpg" height="340" width="250" />
+            <p class="mt-4">Step Aside Coffee - Alcohol is Here</p>
+          </div>
+          <div class="">
+            <img src="../../assets/image/4.jpg" height="340" width="250" />
+            <p class="mt-4">Salt Bae Merica Edition</p>
+          </div>
+        </router-link>
       </div>
     </div>
     <div class="md:grid hidden md:grid-cols-3 lg:grid-cols-4 ml-0 xl:ml-20 mt-10">

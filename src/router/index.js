@@ -13,14 +13,14 @@ const routes = [
     component: TeespringHome
   },
   {
-    path: "/teespring-shop",
-    name: "shop",
-    component: TeespringShop
-  },
-  {
     path: "/apparel",
     name: "apparel",
     component: Apparel
+  },
+  {
+    path: "/teespring-shop",
+    name: "shop",
+    component: TeespringShop
   }
 ];
 

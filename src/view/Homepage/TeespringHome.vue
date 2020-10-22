@@ -4,9 +4,9 @@
       <div class="font-light text-sm py-6 flex lg:ml-16 xl:ml-24">
         <div class="ml-4 lg:ml-0"><img style="width: 120px" src="../../assets/image/teespring.png" /></div>
         <div class="hidden lg:flex ml-10">
-          <div class="pr-10 pr-4">How it works</div>
-          <div class="pr-10 pr-4">Sell anything</div>
-          <div class="pr-10 pr-4">Sell everywhere</div>
+          <div class="pr-10 pr-4"><a href="">How it works</a></div>
+          <div class="pr-10 pr-4"><a href="">Sell anything</a></div>
+          <div class="pr-10 pr-4"><a href="">Sell everywhere</a></div>
         </div>
       </div>
       <div class="py-4 lg:mr-16 xl:mr-24 hidden lg:flex">
@@ -69,71 +69,79 @@
     </div>
     <div class="xl:container mx-auto ">
       <div class="text-center lg:text-left lg:ml-12 xl:ml-0 my-12"><h2 class="font-extrabold text-2xl">Recommendations For You</h2></div>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:mx-12 ">
-        <router-link to="/teespring-shop">
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:mx-12 gap-4 ">
+        <router-link to="/apparel">
           <div class="pr-8">
-            <img style="width:309px; height: 350px" src="../../assets/image/1.jpg" />
+            <img style="width:309px" src="../../assets/image/1.jpg" />
             <div class="text-center my-4">
               <p class="text-sm">Limited Edition</p>
               <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
             </div>
           </div>
         </router-link>
-        <div class="pr-8">
-          <img style="width:309px; height: 350px" src="../../assets/image/2.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">Beer o'clok</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+        <router-link to="/apparel">
+          <div class="pr-8">
+            <img style="width:309px" src="../../assets/image/2.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">Beer o'clok</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
           </div>
-        </div>
-        <div class="pr-8">
-          <img style="width:309px; height: 350px" src="../../assets/image/3.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">Buy beer</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+        </router-link>
+        <router-link to="/apparel">
+          <div class="pr-8">
+            <img style="width:309px" src="../../assets/image/3.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">Buy beer</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
           </div>
-        </div>
-        <div class="">
-          <img style="width:309px; height: 350px" src="../../assets/image/4.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">BFF Beer Friends Borever</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+        </router-link>
+        <router-link to="/apparel">
+          <div class="">
+            <img style="width:309px" src="../../assets/image/4.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">BFF Beer Friends Borever</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
           </div>
-        </div>
+        </router-link>
       </div>
     </div>
     <div class="xl:container mx-auto">
       <div class="text-center lg:text-left lg:ml-12 xl:ml-0 my-12"><h2 class="font-extrabold text-2xl">Trending</h2></div>
-      <div class="grid grid-cols-2 md:grid-cols-4 lg:mx-12 ">
-        <div class="pr-8">
-          <img class="bg-gray-600" style="width:309px; height: 350px" src="../../assets/image/1.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">Limited Edition</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+      <router-link to="/apparel">
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:mx-12 gap-4">
+          <div class="pr-8">
+            <img class="bg-gray-600" style="width:309px" src="../../assets/image/1.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">Limited Edition</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
+          </div>
+          <div class="pr-8">
+            <img style="width:309px" src="../../assets/image/2.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">Beer o'clok</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
+          </div>
+          <div class="pr-8">
+            <img style="width:309px" src="../../assets/image/3.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">Buy beer</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
+          </div>
+          <div class="">
+            <img style="width:309px" src="../../assets/image/4.jpg" />
+            <div class="text-center my-4">
+              <p class="text-sm">BFF Beer Friends Borever</p>
+              <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
+            </div>
           </div>
         </div>
-        <div class="pr-8">
-          <img style="width:309px; height: 350px" src="../../assets/image/2.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">Beer o'clok</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
-          </div>
-        </div>
-        <div class="pr-8">
-          <img style="width:309px; height: 350px" src="../../assets/image/3.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">Buy beer</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
-          </div>
-        </div>
-        <div class="">
-          <img style="width:309px; height: 350px" src="../../assets/image/4.jpg" />
-          <div class="text-center my-4">
-            <p class="text-sm">BFF Beer Friends Borever</p>
-            <p class="text-xs text-gray-600">by COLLECTION BEER T-SHIRTS.</p>
-          </div>
-        </div>
-      </div>
+      </router-link>
     </div>
     <div class="grid hidden lg:block grid-cols-1 mt-6 mb-20 lg:mx-12 xl:container mx-auto">
       <div class="text-2xl font-extrabold my-6">Featured</div>

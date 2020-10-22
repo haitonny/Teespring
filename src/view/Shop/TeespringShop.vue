@@ -84,7 +84,7 @@
                   <p class="text-indigo-800 text-xs font-semibold">
                     Select size:
                   </p>
-                  <select name="" id="" class="py-2 px-6 border rounded-sm">
+                  <select name="" id="" class=" h-10 px-6 border rounded-sm outline-none">
                     <option value="">S</option>
                     <option value="">M</option>
                     <option value="">L</option>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="text-indigo-800 text-xs font-semibold">
                   <p>Quantity</p>
-                  <input type="text" class="w-16 h-10 border rounded-sm" />
+                  <input class="outline-none h-10 px-3 w-16 border rounded-sm" v-model.number="age" type="number" />
                 </div>
               </div>
               <div class="my-6">
