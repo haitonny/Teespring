@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Roboto", "Helvetica", "Arial", "sans-serif"]
+        body: ["Nunito"]
       },
       screens: {
         dmd: {

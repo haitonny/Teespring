@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto font-sans">
+  <div class="mx-auto font-body">
     <div class="bg-white fixed top-0 w-full flex justify-between">
       <div class="font-light text-sm py-6 flex lg:ml-16 xl:ml-24">
         <div class="ml-4 lg:ml-0"><img style="width: 120px" src="../../assets/image/teespring.png" /></div>
@@ -22,7 +22,7 @@
       </div>
       <div class="bg-contain bg-center bg-left-top bg-no-repeat mt-20 xl:mt-20" style="background-image: url('image/heroCropGraphic2Web.png')"></div>
     </div>
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-0 mx-4 lg:-mt-32 mb-20 lg:mx-20 xl:container xl:mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-0 mx-4 mt-8 lg:-mt-32 mb-20 lg:mx-20 xl:container xl:mx-auto">
       <div class="shadow-2xl"><img class="rounded-sm" src="../../assets/image/tiktok_homepage_v2.png" /></div>
       <div class="shadow-2xl"><img class="rounded-sm" src="../../assets/image/YouTubeTile.jpg" /></div>
       <div class="shadow-2xl"><img class="rounded-sm" src="../../assets/image/CreatorTile.jpg" /></div>
