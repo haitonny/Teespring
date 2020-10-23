@@ -120,20 +120,40 @@
     <div class="mx-10" v-if="responsive.isMobile">
       <div class="">
         <div class="text-sm font-semibold border-t border-b py-5 pl-3 flex justify-between">
-          <a href="">Sell</a>
-          <img src="../assets/image/back.svg" style="width: 10px" class="transform -rotate-90 mr-4" alt="" />
+          <a href="#t" class="w-full" @click="isOpen = !isOpen"
+            >Sell
+            <ul v-if="isOpen">
+              <li class="font-light text-gray-600">
+                <a href="" class="block my-3">Quickstart Guide</a>
+                <a href="" class="block">Sell anything</a>
+                <a href="" class="block my-3">Sell everywhere</a>
+                <a href="" class="block">product</a>
+                <a href="" class="block my-3">Brands</a>
+                <a href="" class="block">Training center</a>
+              </li>
+            </ul>
+          </a>
         </div>
-        <div class="text-sm font-semibold border-t border-b py-5 pl-3 flex justify-between">
-          <a href="">Buy</a>
-          <img src="../assets/image/back.svg" style="width: 10px" class="transform -rotate-90 mr-4" alt="" />
+        <div class="text-sm font-semibold border-b py-5 pl-3 flex justify-between">
+          <a href="#r" @click="isOpen = !isOpen" class="w-full"
+            >Buy
+            <ul v-show="isOpen">
+              <li class="font-light text-gray-600">
+                <a href="" class="block my-3">Quickstart Guide</a>
+                <a href="" class="block">Sell anything</a>
+                <a href="" class="block my-3">Sell everywhere</a>
+                <a href="" class="block">product</a>
+                <a href="" class="block my-3">Brands</a>
+                <a href="" class="block">Training center</a>
+              </li>
+            </ul></a
+          >
         </div>
-        <div class="text-sm font-semibold border-t border-b py-5 pl-3 flex justify-between">
+        <div class="text-sm font-semibold border-b py-5 pl-3 flex justify-between">
           <a href="">Integrations</a>
-          <img src="../assets/image/back.svg" style="width: 10px" class="transform -rotate-90 mr-4" alt="" />
         </div>
-        <div class="text-sm font-semibold border-t border-b py-5 pl-3 flex justify-between">
+        <div class="text-sm font-semibold border-b py-5 pl-3 flex justify-between">
           <a href="">About</a>
-          <img src="../assets/image/back.svg" style="width: 10px" class="transform -rotate-90 mr-4" alt="" />
         </div>
       </div>
       <div class="mt-4">
@@ -225,6 +245,11 @@ export default {
     responsiveValue() {
       return this.responsive.isMobile ? "Mobile" : "Desktop";
     }
+  },
+  data() {
+    return {
+      isOpen: false
+    };
   }
 };
 </script>

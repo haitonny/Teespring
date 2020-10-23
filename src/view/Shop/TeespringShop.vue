@@ -23,7 +23,7 @@
             </div>
           </div>
         </div>
-        <div class="md:ml-0 lg:ml-20 md:mr-0 lg:mr-20">
+        <div class="md:ml-0 lg:ml-20 xl:mr-20">
           <div class="hidden lg:block">
             <div class="mb-5">
               <p class="font-extrabold text-3xl">Limited Edition.</p>
@@ -43,7 +43,7 @@
             </p>
             <i class="text-sm font-semibold">Need Help? </i><span class="font-light text-sm">support@teespring.com</span>
           </div>
-          <div class="bg-gray-200 mt-6">
+          <div class=" grid grid-cols-1 bg-gray-200 mt-6">
             <div class="ml-4 pt-6">
               <p class="text-xs text-indigo-800 font-semibold">
                 Available Products:
@@ -59,13 +59,11 @@
                 </select>
               </lable>
               <div class="flex lg:block">
-                <div class="flex mt-3">
+                <div class="flex flex-wrap mt-3">
                   <div class="border-2 hover:border-red-500 rounded bg-cover" style="background-image: url('image/1.jpg') ;width: 90px; height: 60px"></div>
                   <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px; background-image: url('image/9.jpg')"></div>
                   <div class="border-2 hover:border-red-500 rounded bg-cover " style="width: 90px; height: 60px; background-image: url('image/10.jpg')"></div>
                   <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px ; background-image: url('image/11.jpg')"></div>
-                </div>
-                <div class="flex mt-3 pb-8">
                   <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px ; background-image: url('image/12.jpg')"></div>
                   <div class="border-2 hover:border-red-500 rounded bg-cover" style="width: 90px; height: 60px; background-image: url('image/13.jpg')"></div>
                 </div>
@@ -98,19 +96,19 @@
               <div class="my-6">
                 <p class="text-xs text-indigo-800 font-semibold">Color:</p>
                 <div class="flex mt-2 cursor-pointer">
-                  <div class=" border border-gray-500 rounded-full p-2 hover:border-red-500">
+                  <div class=" border border-gray-500 rounded-full p-1 hover:border-red-500">
                     <div class="bg-black p-3 rounded-full "></div>
                   </div>
-                  <div class=" border border-gray-500 rounded-full p-2 mx-3 hover:border-red-500">
+                  <div class=" border border-gray-500 rounded-full p-1 mx-3 hover:border-red-500">
                     <div class="bg-red-700 p-3 rounded-full "></div>
                   </div>
-                  <div class=" border border-gray-500 rounded-full p-2 hover:border-red-500">
+                  <div class=" border border-gray-500 rounded-full p-1 hover:border-red-500">
                     <div class="bg-blue-800 p-3 rounded-full"></div>
                   </div>
-                  <div class=" border border-gray-500 rounded-full p-2 mx-3 hover:border-red-500">
+                  <div class=" border border-gray-500 rounded-full p-1 mx-3 hover:border-red-500">
                     <div class="bg-indigo-800 p-3 rounded-full"></div>
                   </div>
-                  <div class=" border border-gray-500 rounded-full p-2 hover:border-red-500">
+                  <div class=" border border-gray-500 rounded-full p-1 hover:border-red-500">
                     <div class="bg-purple-900 p-3 rounded-full"></div>
                   </div>
                 </div>
@@ -124,27 +122,31 @@
       </div>
     </div>
     <div class="grid md:grid-cols-1 lg:grid-cols-2 mx-auto container md:mt-0 lg:mt-12">
-      <div class="text-center my-6" v-if="responsive.isMobile">
-        <p class="font-light text-sm mb-4">Share this design!</p>
-        <div class="flex ml-4 ">
-          <button class="border border-black hover:border-gray-400 py-2 px-32 mx-4 rounded font-semibold text-sm flex">
-            <div class="">
-              <svg viewBox="0 0 800 800" style="height: 24px">
-                <path d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"></path>
-              </svg>
-            </div>
-            <div class="">Facebook</div>
-          </button>
-          <button class="border border-black hover:border-gray-400 py-2 px-32 rounded font-semibold text-sm flex">
-            <div class="">
-              <svg viewBox="0 0 800 800" style="height: 24px">
-                <path
-                  d="M679 239s-21 34-55 57c7 156-107 329-314 329-103 0-169-50-169-50s81 17 163-45c-83-5-103-77-103-77s23 6 50-2c-93-23-89-110-89-110s23 14 50 14c-84-65-34-148-34-148s76 107 228 116c-22-121 117-177 188-101 37-6 71-27 71-27s-12 41-49 61c30-2 63-17 63-17z"
-                ></path>
-              </svg>
-            </div>
-            <div class="">Twitter</div>
-          </button>
+      <div class="text-center" v-if="responsive.isMobile">
+        <p class="font-light text-sm my-4">Share this design!</p>
+        <div class="grid grid-cols-2 gap-4 text-center mb-6 mx-4 lg:hidden">
+          <div class="">
+            <button class="border w-full border-black hover:border-gray-400 py-2 rounded font-semibold text-sm flex">
+              <div class="flex mx-auto">
+                <svg viewBox="0 0 800 800" style="height: 24px">
+                  <path d="M445 643h-90V419h-75v-87h75v-64q0-55 32-86 30-29 80-29 28 0 67 3v78h-47q-42 0-42 38v60h86l-11 87h-75v224z"></path>
+                </svg>
+                <p>Facebook</p>
+              </div>
+            </button>
+          </div>
+          <div class="">
+            <button class="border border-black w-full hover:border-gray-400 py-2 rounded font-semibold text-sm flex">
+              <div class="flex mx-auto">
+                <svg viewBox="0 0 800 800" style="height: 24px">
+                  <path
+                    d="M679 239s-21 34-55 57c7 156-107 329-314 329-103 0-169-50-169-50s81 17 163-45c-83-5-103-77-103-77s23 6 50-2c-93-23-89-110-89-110s23 14 50 14c-84-65-34-148-34-148s76 107 228 116c-22-121 117-177 188-101 37-6 71-27 71-27s-12 41-49 61c30-2 63-17 63-17z"
+                  ></path>
+                </svg>
+                <p class="">Twitter</p>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div class="border-t" v-if="responsive.isMobile"></div>
