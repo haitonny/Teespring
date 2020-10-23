@@ -140,16 +140,18 @@
       </div>
     </div>
     <div class="mx-4 md:hidden">
-      <div class="grid grid-cols-2 mb-20 text-sm gap-8">
-        <div class="">
-          <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
-          <p class="mt-4 text-center">Limited Edition</p>
+      <router-link to="/teespring-Shop">
+        <div class="grid grid-cols-2 mb-20 text-sm gap-8">
+          <div class="">
+            <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
+            <p class="mt-4 text-center">Limited Edition</p>
+          </div>
+          <div class="">
+            <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
+            <p class="mt-4 text-center truncate ">Pizza Lover's Food Pyramid</p>
+          </div>
         </div>
-        <div class="">
-          <img class="" src="../../assets/image/2.jpg" height="340" width="250" />
-          <p class="mt-4 text-center truncate ">Pizza Lover's Food Pyramid</p>
-        </div>
-      </div>
+      </router-link>
       <div class="grid grid-cols-2 mb-10 text-sm gap-8">
         <div class="text-center">
           <img class="" src="../../assets/image/2.jpg" height="340" width="250" />

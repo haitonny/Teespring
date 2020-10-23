@@ -33,7 +33,26 @@
       <div class="flex mx-auto container mb-3">
         <ul>
           <li>
-            <a class="font-light text-sm text-gray-700 " href="">Apparel</a>
+            <a class="font-light text-sm text-gray-700 " href="" @mouseover="hover = true" @mouseleave="hover = false"
+              >Apparel
+              <ul class="absolute pt-4">
+                <li class="">
+                  <a href="" class="">Adventure</a>
+                  <a href="" class="">Hobbies</a>
+                  <a href="" class="">Sports</a>
+                </li>
+                <li class="my-4">
+                  <a href="">Animal lover</a>
+                  <a href="">Holiday</a>
+                  <a href="">Tank</a>
+                </li>
+                <li>
+                  <a href="">Apparel</a>
+                  <a href="">Hoodies</a>
+                  <a href="">Teespring exclusives</a>
+                </li>
+              </ul>
+            </a>
             <a class="font-light text-sm text-gray-700 mx-6" href="">Home Decor</a>
             <a class="font-light text-sm text-gray-700" href="">Socks</a>
             <a class="font-light text-sm text-gray-700 mx-6" href="">Phone Cases</a>
@@ -48,7 +67,13 @@
 
 <script>
 export default {
-  name: "HeaderShop"
+  name: "HeaderShop",
+  data() {
+    return {
+      isOpen: false,
+      hover: false
+    };
+  }
 };
 </script>
 
